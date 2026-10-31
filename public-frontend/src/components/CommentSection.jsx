@@ -13,7 +13,7 @@ function CommentSection({ postId }) {
     async function fetchComments() {
       try {
         const response = await fetch(
-          `http://localhost:3000/api/posts/${postId}/comments`
+          `https://blog-app-hy2z.onrender.com/api/posts/${postId}/comments`
         );
 
         if (!response.ok) {
@@ -52,7 +52,7 @@ function CommentSection({ postId }) {
 
     try {
       const response = await fetch(
-        `http://localhost:3000/api/posts/${postId}/comments`,
+        `https://blog-app-hy2z.onrender.com/api/posts/${postId}/comments`,
         {
           method: "POST",
           headers: {
