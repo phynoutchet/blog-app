@@ -29,7 +29,7 @@ function LoginPage({ onLogin}) {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/api/auth/login",
+        "https://blog-app-hy2z.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {

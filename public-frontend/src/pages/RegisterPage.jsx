@@ -31,7 +31,7 @@ function RegisterPage() {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/api/auth/register",
+        "https://blog-app-hy2z.onrender.com/api/auth/register",
         {
           method: "POST",
           headers: {

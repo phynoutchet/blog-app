@@ -10,7 +10,7 @@ function HomePage() {
     async function fetchPosts() {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/posts"
+          "https://blog-app-hy2z.onrender.com/api/posts"
         );
 
         if (!response.ok) {
