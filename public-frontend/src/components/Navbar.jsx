@@ -23,7 +23,7 @@ function Navbar({ user, onLogout }) {
               Logout
             </button>
 
-            <a href="http://localhost:5173/login">
+            <a href="https://blog-app-e34x.vercel.app">
                 Admin
             </a>
           </>
