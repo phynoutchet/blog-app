@@ -18,7 +18,7 @@ function DashboardPage() {
         const token = localStorage.getItem("adminToken");
 
         const response = await fetch(
-          "http://localhost:3000/api/posts/admin/all",
+          "https://blog-app-hy2z.onrender.com/api/posts/admin/all",
           {
             headers: {
               Authorization: `Bearer ${token}`,

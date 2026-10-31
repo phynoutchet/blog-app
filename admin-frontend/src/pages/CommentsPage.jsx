@@ -18,7 +18,7 @@ async function handleDelete(commentId) {
     const token = localStorage.getItem("adminToken");
 
     const response = await fetch(
-      `http://localhost:3000/api/comments/${commentId}`,
+      `https://blog-app-hy2z.onrender.com/api/comments/${commentId}`,
       {
         method: "DELETE",
         headers: {
@@ -49,7 +49,7 @@ async function handleDelete(commentId) {
         const token = localStorage.getItem("adminToken");
 
         const response = await fetch(
-          "http://localhost:3000/api/comments",
+          "https://blog-app-hy2z.onrender.com/api/comments",
           {
             headers: {
               Authorization: `Bearer ${token}`,
